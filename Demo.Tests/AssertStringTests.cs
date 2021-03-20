@@ -83,7 +83,7 @@ namespace Demo.Tests
             var nomeCompleto = sut.Unir("Eduardo", "Pires");
 
             //Assert
-            Assert.Matches("[A-Z]{1}[a-z]+[A-Z]{1}[a-z]+", nomeCompleto);
+            Assert.Matches("[A-Z]{1}[a-z]+ [A-Z]{1}[a-z]+", nomeCompleto);
         }
     }
 }
